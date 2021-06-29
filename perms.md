@@ -25,6 +25,7 @@ The permissions for a given file or directory are displayed on the far left (by 
 <br> 
 
 Permissions can be edited explicitly or relatively using the ***chmod*** command.
+
 - Explicit examples:
 
 <br>
@@ -37,7 +38,7 @@ Permissions can be edited explicitly or relatively using the ***chmod*** command
 
 <br>
 
-- Relative example:
+- Relative examples:
 
 <br>
 
