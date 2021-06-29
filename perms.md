@@ -28,7 +28,7 @@ Permissions can be edited explicitly or relatively using the ***chmod*** command
 [images/perms-explicit1.png](images/perms-explicit1.png)
 [[images/perms-explicit2.png]]
 - Relative example:
-[](images/perms-relative1.png)
+![](images/perms-relative1.png)
 [](images/perms-relative1.png)
 
 <br>
