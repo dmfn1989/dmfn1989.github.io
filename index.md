@@ -3,4 +3,4 @@
 
 
 
-![](images/Linux.jpg)
+![images/Linux.jpg](images/Linux.jpg)
