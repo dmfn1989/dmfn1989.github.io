@@ -34,7 +34,7 @@ Every running process will have a subdirectory within ***/proc***, identified by
 
 <br>
 
-### **Process Information**
+### **System Information**
 The additional special files in /proc not related to specific processes contain various system information. These special files are often leveraged by native commands one would use to gather system information, the output is just usually formatted to make it more readable. Examples include, but are not limited to:
 - uptime: time since boot (***uptime***)
 - version: kernel info (***uname***)
