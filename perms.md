@@ -2,17 +2,17 @@
 
 ### **Categories**
 Permissions are broken into three categories in terms of who they apply to:
-- Owner (creating user by default)
-- Group (group the owner belongs to)
-- others (other users)
+- **Owner** (creating user by default)
+- **Group** (group the owner belongs to)
+- **others** (other users)
 
 <br>
 
 ### **Permissions**
 Each of the above categories can contain any combination of the following permissions, which can be represented by the associated numerical value:
-- Read(4)
-- Write(2)
-- Execute(1)
+- **Read(4)**
+- **Write(2)**
+- **Execute(1)**
 
 <br>
 
@@ -26,7 +26,7 @@ The permissions for a given file or directory are displayed on the far left (by 
 
 Permissions can be edited explicitly or relatively using the ***chmod*** command.
 
-- Explicit examples:
+- **Explicit examples:**
 
 <br>
 
@@ -38,7 +38,7 @@ Permissions can be edited explicitly or relatively using the ***chmod*** command
 
 <br>
 
-- Relative examples:
+- **Relative examples:**
 
 <br>
 
@@ -52,10 +52,12 @@ Permissions can be edited explicitly or relatively using the ***chmod*** command
 
 ### Special Permissions
 Linux files can also contain the following special permissions:
-- SetUID (4): Tells the system to execute a file with the owner's permissions. 
-- SetGID (2): Tells the system to execute a file with the group's permissions.
-- Sticky bit (1): Only the file owner can rename or delete the file.
+- **SetUID (4)**: Tells the system to execute a file with the owner's permissions. 
+- **SetGID (2)**: Tells the system to execute a file with the group's permissions.
+- **Sticky bit (1)**: Only the file owner can rename or delete the file.
+
 <br>
+
 Both the SetUID and SetGID permissions are set with the "s" permission for either the user or group, respectively. Additionally, both can be added simultaneously by not specifying the "u" or "g" option.
 
 <br>
