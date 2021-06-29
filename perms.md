@@ -1,6 +1,6 @@
 # File Permissions
 
-#### **Categories**
+### **Categories**
 Permissions are broken into three categories in terms of who they apply to:
 - Owner (creating user by default)
 - Group (group the owner belongs to)
@@ -8,7 +8,7 @@ Permissions are broken into three categories in terms of who they apply to:
 
 <br>
 
-#### **Permissions**
+### **Permissions**
 Each of the above categories can contain any combination of the following permissions, which can be represented by the associated numerical value:
 - Read(4)
 - Write(2)
@@ -17,28 +17,34 @@ Each of the above categories can contain any combination of the following permis
 <br>
 
 The permissions for a given file or directory are displayed on the far left (by default) of a long listing. 
+
+<br>
 <br>
 ![](images/perms.png)
 <br>
-
 <br> 
 
 Permissions can be edited explicitly or relatively using the ***chmod*** command.
 - Explicit examples:
 <br>
+<br>
 ![](images/perms-explicit1.png)
+<br>
 <br>
 ![](images/perms-explicit2.png)
 <br>
+<br>
 - Relative example:
 <br>
-![](images/perms-relative1.png)
 <br>
 ![](images/perms-relative1.png)
-
+<br>
+<br>
+![](images/perms-relative2.png)
+<br>
 <br>
 
-#### Special Permissions
+### Special Permissions
 Linux files can also contain the following special permissions:
 - SetUID (4): Tells the system to execute a file with the owner's permissions. 
 - SetGID (2): Tells the system to execute a file with the group's permissions.
