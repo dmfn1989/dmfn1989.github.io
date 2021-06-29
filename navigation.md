@@ -1,9 +1,8 @@
 # Intro
 [Linux Filesystem]()
 - [Standard Directories](standard_dirs)
-	-[comment]: <> (complete)
-- [Permissions](perms)
-	- [comment]: <> (complete)
+- [comment]: <> (complete)
+- [Permissions](perms)- [comment]: <> (complete)
 - [The Virtual Filesystem](vfs-proc)
 
 [Bash]()
