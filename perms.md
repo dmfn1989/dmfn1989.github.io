@@ -55,7 +55,7 @@ Linux files can also contain the following special permissions:
 - SetUID (4): Tells the system to execute a file with the owner's permissions. 
 - SetGID (2): Tells the system to execute a file with the group's permissions.
 - Sticky bit (1): Only the file owner can rename or delete the file.
-
+<br>
 Both the SetUID and SetGID permissions are set with the "s" permission for either the user or group, respectively. Additionally, both can be added simultaneously by not specifying the "u" or "g" option.
 
 <br>
