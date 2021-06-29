@@ -12,7 +12,7 @@
 - **/media** - Default location for special file representations of removable / temporary media.
 - **/mnt** - Traditionally used for mountpoints for temporary filesystems.
 - **/opt** - Traditionally used to store optional software packages or binaries and their associated files.
-- **/proc** - Typically referred to as a [Virtual Filesystem](vfs-proc), since all items within are special file representations of things like processes. The files to not exist on the physical filesystem, and the entire directory is built at boot and destroyed at shutdown. 
+- **/proc** - Typically referred to as a [Virtual Filesystem](vfs-proc.md), since all items within are special file representations of things like processes. The files to not exist on the physical filesystem, and the entire directory is built at boot and destroyed at shutdown. 
 - **/root** - The root user's home folder. 
 - **/sbin** - Contains binaries typically used by the root user for system administration.
 - **/tmp** - Contains temporary files which are deleted at shutdown / restart. 
