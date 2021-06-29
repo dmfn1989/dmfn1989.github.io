@@ -17,16 +17,19 @@ Every running process will have a subdirectory within ***/proc***, identified by
 <br>
 
 ![](images/proc-nc2.png)
+<br>
 *Pictured Above: A netcat listener was started in the background with the PID 75254, which then shows up as a subdirectory within **/proc**.*
 
 <br>
 
 ![](images/proc-nc3.png)
+<br>
 *Pictured Above: The contents of a process (netcat in this case) subdirectory.*
 
 <br>
 
 ![](images/proc-nc4.png)
+<br>
 *Pictured Above: The contents of the netcat process **cmdline** file, which matches the command line arguments it was started with.**
 
 <br>
