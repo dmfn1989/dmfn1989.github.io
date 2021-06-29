@@ -20,11 +20,7 @@ The permissions for a given file or directory are displayed on the far left (by 
 
 <br>
 
-<br>
-
 ![](images/perms.png)
-
-<br>
 
 <br> 
 
@@ -32,31 +28,25 @@ Permissions can be edited explicitly or relatively using the ***chmod*** command
 - Explicit examples:
 
 <br>
-<br>
 
 ![](images/perms-explicit1.png)
 
-<br>
 <br>
 
 ![](images/perms-explicit2.png)
 
 <br>
-<br>
 
 - Relative example:
-- 
-<br>
+
 <br>
 
 ![](images/perms-relative1.png)
 
 <br>
-<br>
 
 ![](images/perms-relative2.png)
 
-<br>
 <br>
 
 ### Special Permissions
@@ -89,6 +79,6 @@ Special permissions can also be set by pre-pending their numerical value to the 
 
 <br>
 
-**Online References:**
+**External References:**
 - https://www.linux.com/training-tutorials/understanding-linux-file-permissions/
 - https://phoenixnap.com/kb/linux-file-permissions
