@@ -10,7 +10,7 @@ Man pages can be accessed by typing <code> man ***command*** </code> , which wil
 
 <br>
 
-|Page Number   | Description
+|Manual Page Number   | Description
 |----------------|-----------------------------------------------------------------------|
 | 1   					  | Executable programs or shell commands    											 |
 | 2   					  | System calls (functions provided by the kernel)   									|
