@@ -1,6 +1,6 @@
 # **Standard Linux Directories**
 
-#### **Basic Directory Descriptions**
+### **Basic Directory Descriptions**
 - **/** - The root directory is the base of the whole filesystem in Linux, and everything in the Filesystem falls beneath it. 
 - **/bin** - Contains all of the essential system binaries for "single user mode" (basic functionality.
 - **/boot** - Contains all files necessary to boot the system (ie. GRUB bootloader files, Linux Kernels, etc.).
@@ -26,6 +26,6 @@
 
 <br>
 
-**Online References:**
+**External References:**
 - https://www.howtogeek.com/117435/htg-explains-the-linux-directory-structure-explained/
 - https://www.linuxtrainingacademy.com/linux-directory-structure-and-file-system-hierarchy/
