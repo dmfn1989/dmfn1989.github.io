@@ -56,8 +56,7 @@ Both the SetUID and SetGID permissions are set with the "s" permission for eithe
 <br>
 The Sticky bit is set with the "t" permission, and appears in the "other" section of the permissions.
 <br>
-![](images/setuid-setgid.png)
-<br>
+
 **NOTE:** If the execute bit underlying the special permission is set, the special permission ("s" or "t") will appear as a capital, and vice versa if it is not set.
 
 <br> 
