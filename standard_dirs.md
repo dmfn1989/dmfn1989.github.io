@@ -17,7 +17,7 @@
 - **/sbin** - Contains binaries typically used by the root user for system administration.
 - **/tmp** - Contains temporary files which are deleted at shutdown / restart. 
 - **/usr** - Contains user binaries and applications.
--**/var** - Contains variable data files that are written to by various applications (log files for a service in /var/log/*\<service>*)
+- **/var** - Contains variable data files that are written to by various applications (log files for a service in /var/log/*\<service>*)
 
 <br>
 
