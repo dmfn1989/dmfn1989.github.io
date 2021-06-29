@@ -1,7 +1,7 @@
 # The Virtual Filesystem (/proc)
 
 ### **Overview**
-As stated in the [Standard Directories](standard_dirs) section, the /proc directory contains special files that do not exist on the physical filesystem. The entire directory is created at boot, the special files therein contain information about the system as it is currently running, and the filesystem disappears when the system is shutdown or rebooted. The contents of the directory generally fall in one of two categories:
+As stated in the [Standard Directories](standard_dirs.md) section, the /proc directory contains special files that do not exist on the physical filesystem. The entire directory is created at boot, the special files therein contain information about the system as it is currently running, and the filesystem disappears when the system is shutdown or rebooted. The contents of the directory generally fall in one of two categories:
 - Process Info (organized into directories named by PID)
 - System Info (virtual files/subdirectories that can be queried for info)
 
@@ -30,7 +30,7 @@ Every running process will have a subdirectory within ***/proc***, identified by
 
 ![](images/proc-nc4.png)
 <br>
-*Pictured Above: The contents of the netcat process **cmdline** file, which matches the command line arguments it was started with.**
+*Pictured Above: The contents of the netcat process **cmdline** file, which matches the command line arguments it was started with.*
 
 <br>
 
@@ -43,7 +43,7 @@ The additional special files in /proc not related to specific processes contain 
 
 <br>
 
-The use of items within ***/proc*** will be covered in more depth in the [Memory Forensics](mem-forensics) section.
+The use of items within ***/proc*** will be covered in more depth in the [Memory Forensics](mem-forensics.md) section.
 
 <br>
 
