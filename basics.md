@@ -49,7 +49,7 @@ Man pages can be accessed by typing <code> man ***command*** </code> , which wil
 <br>
 
 ### **System Survey**
-- **fdisk**: disk partitioning functions
+- <code>fdisk</code>: disk partitioning functions
 - **free**: display memory usage statistics
 - **dmesg**: prints the kernel message buffer, including device driver messages
 - **uname**: retrieve general system information (kernel version, architechture, os, etc.)
