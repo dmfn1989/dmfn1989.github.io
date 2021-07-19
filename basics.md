@@ -111,15 +111,9 @@ Local Variables in bash can be assigned by typing the "naked" variable name on t
 
 <br>
 
-|![Brief example of setting a variable](images/Variables1.png)|
-|--|
-|test caption|
-
-<br>
-
 <figure>
 	<img src="images/Variables1.png">
-	<figcaption>test caption</figcaption>
+	<figcaption>Local Variable Creation and Use</figcaption>
 </figure>
 
 <br>
@@ -140,8 +134,10 @@ When typed with no arguments, the ***alias*** command will display current alias
 
 <br>
 
-![](images/Aliases1.png)
-*test caption*
+<figure>
+	<img src="images/Aliases1.png">
+	<figcaption>Alias Display, Creation, and Use</figcaption>
+</figure>
 
 <br>
 
@@ -177,12 +173,16 @@ The commands below, while still useful on their own, are most powerful combined 
 <br>
 
 ### **Brace Expansion**
-Strings can be generated in sequence for use in naming files and directories, generating file contents, 
+Strings can be generated in sequence for use in naming files and directories, generating file contents, creating input to pass along in a pipeline, and scripting. To utilize brace expansion, enter either a comma-separated list of strings or range of numbers between a pair of curly brackets. Optionally, a preamble and post-script can be placed before and after the brackets, respectively, to add a static portion to the output.
+
+<figure>
+	<img src="images/BraceExp1.png">
+	<figcaption>Brace Expansion Examples</figcaption>
+</figure>
+
 <br>
 
 
-
-<br>
 
 **References:**
 - https://phoenixnap.com/kb/linux-commands-cheat-sheet
