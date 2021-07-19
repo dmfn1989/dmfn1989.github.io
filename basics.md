@@ -65,7 +65,7 @@ Man pages can be accessed by typing <code> man ***command*** </code> , which wil
 ### **Common Redirection**
 - <code>></code>: sending standard output to ***overwrite*** a designated file
 - <code>>></code>: sending standard output to ***append to*** a designated file
-- <code><"**: retrieve contents from a file or source, send to standard input
+- <code><</code> retrieve contents from a file or source, send to standard input
 - <code>2>/dev/null</code>: suppress errors 
 
 <br>
