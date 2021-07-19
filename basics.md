@@ -61,36 +61,51 @@ Man pages can be accessed by typing <code> man ***command*** </code> , which wil
 
 
 <br>
+
 ### **Common Redirection**
 - **">"**: sending standard output to ***overwrite*** a designated file
 - **">>"**: sending standard output to ***append to*** a designated file
 - **"<"**: retrieve contents from a file or source, send to standard input
 - **"2>/dev/null"**: suppress errors 
 <br>
+
 ### **Process / Service Info Retrieval**
 - **ps**: list processes
 - **pidof**: retrieve the pid of a process(es)
 - **systemctl / service**: retrieve service information (systemd)
+
 <br>
+
 ### **Network Information Retrieval**
 - **ip / ifconfig**: display information about network interfaces
 - **netstat / ss**: display current connection information
 - **lsof**: list open files associated with processes / network connections
+
 <br>
+
 ### **User Information**
 - **who / w**: displays currently logged in users
 - **last**: display all users logged in / out since /var/log/wtmp was created
 - **id**: simple command line utility for displaying a real and effective user and group IDs
 - **groups**: used to show all the groups a user belongs to
 - **finger**: used to search information about a user (ie. real name, home directory, default shell, time logged in, etc., as applicable). **NOTE:** Not installed by default on all linux distros.
+
 <br>
+
 ### **Variables**
+
 <br>
+
 ### **Aliases**
+
 <br>
+
 ### **ID'ing installed software / installing software**
+
 <br>
+
 ### **Content Search / Output Manipulation**
+
 - **grep**: search file / output content by keyword
 - **egrep**: search file / output content by regular expression (same as grep -e)
 - **awk**: retrieve specified ***columns*** from files / output 
@@ -98,6 +113,7 @@ Man pages can be accessed by typing <code> man ***command*** </code> , which wil
 - **tr**: 
 - **cut**: 
 - **sort**: 
+
 <br>
 
 **References:**
