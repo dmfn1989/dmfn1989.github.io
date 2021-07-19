@@ -69,7 +69,7 @@ Man pages can be accessed by typing <code> man ***command*** </code> , which wil
 - <code>2>/dev/null</code> suppress errors 
 
 <br>
-
+	
 ### **Process / Service Info Retrieval**
 - <code>ps</code> list processes
 - <code>pidof / pgrep</code> retrieve the pid of a process(es)
@@ -111,7 +111,16 @@ Local Variables in bash can be assigned by typing the "naked" variable name on t
 
 <br>
 
-![Brief example of setting a variable](images/Variables1.png)
+|![Brief example of setting a variable](images/Variables1.png)|
+|--|
+|test caption|
+
+<br>
+
+<figure>
+	<img src="images/Variables1.png">
+	<figcaption>test caption</figcaption>
+</figure>
 
 <br>
 
@@ -132,6 +141,7 @@ When typed with no arguments, the ***alias*** command will display current alias
 <br>
 
 ![](images/Aliases1.png)
+*test caption*
 
 <br>
 
@@ -139,25 +149,35 @@ To make an alias permanent for a user account, it can be either added to the **~
 
 <br>
 
-### **ID'ing installed software / installing software**
-- RedHat / CentOS:
-	- <code>rpm -qa</code> list all installed
+### **ID'ing installed software**
+Use the following commands to Identify installed packages on a \*NIX distribution. 
+
+- Aptitude-based distributions (Ubuntu, Debian, etc): <code>dpkg -l</code>
+- RPM-based distributions (Fedora, RHEL, etc): <code>rpm -qa</code>
+- pkg*-based distributions (OpenBSD, FreeBSD, etc): <code>pkg_info</code>
+- Portage-based distributions (Gentoo, etc): <code>equery list</code> or <code>eix -I</code>
+- pacman-based distributions (Arch Linux, etc): <code>pacman -Q</code>
+
+**NOTE:** Additional programs can easily exist elsewhere (typically within a users $PATH) without being identified as installed packages by the above commands, especially if they were manually installed / compiled on the system.
+	
 <br>
 
 ### **Content Search / Output Manipulation**
+The commands below, while still useful on their own, are most powerful combined together in pipeline command, where they can extract and draw attention to important information, provided the appropriate logic behind them. Useful examples of this are covered in a separate section, [CLI-Fu](CLI-Fu.md).
 
 - <code>grep</code> search file / output content by keyword
 - <code>egrep</code> search file / output content by regular expression (same as grep -e)
 - <code>awk</code> retrieve specified ***columns*** from files / output 
-- <code>sed</code> edit files / output
-- <code>tr</code> 
-- <code>cut</code> 
-- <code>sort</code> 
+- <code>sed</code> edit data as a stream, will only change the first occurrence per line by default
+- <code>tr</code> translate or delete characters, replace from one set with another
+- <code>cut</code> select specific "fields" from lines of input data to print, uses **tab** as the default delimiter, but any can be specified
+- <code>sort</code> sort lines of data by the first character, assumes ASCII content by default
+- <code>uniq</code> remove duplicate **sequential** lines of data
 
 <br>
 
 ### **Brace Expansion**
-
+Strings can be generated in sequence for use in naming files and directories, generating file contents, 
 <br>
 
 
@@ -168,3 +188,4 @@ To make an alias permanent for a user account, it can be either added to the **~
 - https://phoenixnap.com/kb/linux-commands-cheat-sheet
 - https://www.tecmint.com/find-user-account-info-and-login-details-in-linux/
 - https://www.gnu.org/software/bash/manual/html_node/index.html
+- https://www.geeksforgeeks.org/tr-command-in-unix-linux-with-examples/
