@@ -9,6 +9,7 @@
 
   - [Basics](basics.md)
   - [Advanced](advanced.md)
+  - [Command Line-Fu](CLI-Fu.md)
   - [Scripting](bash-scripting.md)
 
 [Python]()
