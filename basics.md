@@ -105,7 +105,7 @@ Man pages can be accessed by typing <code> man ***command*** </code> , which wil
 ### **Variables**
 Local Variables in bash can be assigned by typing the "naked" variable name on the left side of an equals sign, and the assigned value on the right.  The variable can later be recalled by prepending a "$" to the variable name (ie. a=b, and the variable is later recalled by typing $a) from within the current terminal / context only. **NOTE:** Variable names are case sensitive, as with most things in Linux.
 
-[Brief example of setting a variable](images/Variables1.png)
+![Brief example of setting a variable](images/Variables1.png)
 
 Environment Variables can be declared by prepending "export" to a normal variable declaration (ie. export a=b). This will allow the variable to be used by the current terminal / context, as well as any children spawned.
 
@@ -117,7 +117,7 @@ Lastly, bash has standard environment variables that can be queried for informat
 ### **Aliases**
 When typed with no arguments, the ***alias*** command will display current aliases. To set a new alias, type <code> alias shortname=command </code>, where shortname is the alias you want to type / run, and command is the the action you want to perform.
 
-[Setting / Using a custom Alias](images/Aliases1.png)
+![Setting / Using a custom Alias](images/Aliases1.png)
 
 <br>
 
