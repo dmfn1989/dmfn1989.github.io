@@ -184,7 +184,7 @@ Strings can be generated in sequence for use in naming files and directories, ge
 
 
 
-**References:**
+**External References:**
 - https://phoenixnap.com/kb/linux-commands-cheat-sheet
 - https://www.tecmint.com/find-user-account-info-and-login-details-in-linux/
 - https://www.gnu.org/software/bash/manual/html_node/index.html
