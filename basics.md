@@ -172,20 +172,10 @@ The commands below, while still useful on their own, are most powerful combined 
 
 <br>
 
-### **Brace Expansion**
-Strings can be generated in sequence for use in naming files and directories, generating file contents, creating input to pass along in a pipeline, and scripting. To utilize brace expansion, enter either a comma-separated list of strings or range of numbers between a pair of curly brackets. Optionally, a preamble and post-script can be placed before and after the brackets, respectively, to add a static portion to the output.
 
-<figure>
-	<img src="images/BraceExp1.png">
-	<figcaption>Brace Expansion Examples</figcaption>
-</figure>
-
-<br>
-
-
-
-**External References:**
+**References:**
 - https://phoenixnap.com/kb/linux-commands-cheat-sheet
 - https://www.tecmint.com/find-user-account-info-and-login-details-in-linux/
 - https://www.gnu.org/software/bash/manual/html_node/index.html
+- https://www.gnu.org/software/bash/manual/bash.html
 - https://www.geeksforgeeks.org/tr-command-in-unix-linux-with-examples/
