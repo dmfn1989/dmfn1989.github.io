@@ -71,8 +71,13 @@ Man pages can be accessed by typing <code> man ***command*** </code> , which wil
 
 ### **Process / Service Info Retrieval**
 - **ps**: list processes
-- **pidof**: retrieve the pid of a process(es)
+- **pidof / pgrep**: retrieve the pid of a process(es)
 - **systemctl / service**: retrieve service information (systemd)
+- **top / htop**: displays processes and their associated resource utilization in live output. **NOTE:** Due to the live output, top and htop are not recommended for incorporation into scripts.
+- **kill**: send termination signal to a process by PID
+- **pkill**: send termination signal to a process by process name
+- **killall**: send a termination signal to all processes with a specific process name
+- **pstree**: displays processes in a parent-child relational format
 
 <br>
 
@@ -85,18 +90,31 @@ Man pages can be accessed by typing <code> man ***command*** </code> , which wil
 
 ### **User Information**
 - **who / w**: displays currently logged in users
-- **last**: display all users logged in / out since /var/log/wtmp was created
+- **last**: display successful login / logout events as recorded in /var/log/wtmp
+- **lastb**: displays unsuccessful login events recorded in /var/log/btmp 
 - **id**: simple command line utility for displaying a real and effective user and group IDs
 - **groups**: used to show all the groups a user belongs to
 - **finger**: used to search information about a user (ie. real name, home directory, default shell, time logged in, etc., as applicable). **NOTE:** Not installed by default on all linux distros.
+- **lslogins**: displays information about user accounts on the system such as UID, username, number of owned running processes, last login time, and user [GECOS](https://en.wikipedia.org/wiki/Gecos_field) field
+- **users**: displays users currently logged in to the system
+- **who**: displays users currently logged in to the system, the terminal they are connected to, last login date/time, and the address they are connected from ( "(:0)" for locally logged-in, or an IP address for a remote connection)
+- **w**: displays system uptime, number of users logged in, and basic information about their login session (ie. username, terminal, address connected from, login time, etc.)
 
 <br>
 
 ### **Variables**
+Local Variables in bash can be assigned by typing the "naked" variable name on the left side of an equals sign, and the assigned value on the right.  The variable can later be recalled by prepending a "$" to the variable name (ie. a=b, and the variable is later recalled by typing $a) from within the current terminal / context only. **NOTE:** Variable names are case sensitive, as with most things in Linux.
 
+Environment Variables can be declared by prepending "export" to a normal variable declaration (ie. export a=b). This will allow the variable to be used by the current terminal / context, as well as any children spawned.
+
+Global Variables are in reference to a variable declared at the beginning of a bash script that can be used throughout in various functions or commands, unless over-written.
+
+Lastly, bash has standard environment variables that can be queried for information and / or manipulated to affect attributes of a user's shell experience. They can be found [here](https://www.gnu.org/software/bash/manual/html_node/Bash-Variables.html).
 <br>
 
 ### **Aliases**
+When typed with no arguments, the ***alias*** command will display current aliases. To set a new alias, type 
+
 
 <br>
 
@@ -116,6 +134,15 @@ Man pages can be accessed by typing <code> man ***command*** </code> , which wil
 
 <br>
 
+### **Brace Expansion**
+
+<br>
+
+
+
+<br>
+
 **References:**
 - https://phoenixnap.com/kb/linux-commands-cheat-sheet
 - https://www.tecmint.com/find-user-account-info-and-login-details-in-linux/
+- https://www.gnu.org/software/bash/manual/html_node/index.html
