@@ -26,27 +26,80 @@ Man pages can be accessed by typing <code> man ***command*** </code> , which wil
 <br>
 
 ### **FS navigation / operation**
-- pwd: displays the present working directory
-- cd
-- ls
-- touch
-- mkdir
-- chmod
-- chown
-- 
+- **pwd**: displays the present working directory
+- **cd**: change directory
+- **ls**: list contents of a directory
+- **touch**: create a file; update timestamp
+- **mkdir**: make a directory
+- **rmdir**: remove directory
+- **chmod**: change permissions
+- **chown**: change ownership
+- **cp**: copy files
+- **mv**: move or rename a file
+- **more**: page through the contents of a file
+- **less**: page through the contents of a file (like more, but with more functionality)
+- **cat**: output the contents of a file
+- **head**: display the beginning of a file (10 lines by default)
+- **tail**: display the end of a file (10 lines by default)
+- **wc**: count lines, characters, or bytes of a file
+- **gpg**: encrypt a file 
+- **sha#sum / md#sum**: hash a file or data
+- **dd**: dump data from various sources (hard drive, partition, process memory)
+
 <br>
-### **redirection**
+
+### **System Survey**
+- **fdisk**: disk partitioning functions
+- **free**: display memory usage statistics
+- **dmesg**: prints the kernel message buffer, including device driver messages
+- **uname**: retrieve general system information (kernel version, architechture, os, etc.)
+- **lshw**: display hardware devices
+- **lscpu**: display cpu information
+- **lsblk**: display block devices (hard drives / partitions, mountpoints, usb devices, etc.)
+- **lsusb**: display currently available usb devices
+- **df**: display free / used space on the filesystem
+
+
 <br>
-### **process/service info retrieval**
+### **Common Redirection**
+- **">"**: sending standard output to ***overwrite*** a designated file
+- **">>"**: sending standard output to ***append to*** a designated file
+- **"<"**: retrieve contents from a file or source, send to standard input
+- **"2>/dev/null"**: suppress errors 
 <br>
-### **network info retrieval**
+### **Process / Service Info Retrieval**
+- **ps**: list processes
+- **pidof**: retrieve the pid of a process(es)
+- **systemctl / service**: retrieve service information (systemd)
 <br>
-### **variables**
+### **Network Information Retrieval**
+- **ip / ifconfig**: display information about network interfaces
+- **netstat / ss**: display current connection information
+- **lsof**: list open files associated with processes / network connections
 <br>
-### **aliases**
+### **User Information**
+- **who / w**: displays currently logged in users
+- **last**: display all users logged in / out since /var/log/wtmp was created
+- **id**: simple command line utility for displaying a real and effective user and group IDs
+- **groups**: used to show all the groups a user belongs to
+- **finger**: used to search information about a user (ie. real name, home directory, default shell, time logged in, etc., as applicable). **NOTE:** Not installed by default on all linux distros.
+<br>
+### **Variables**
+<br>
+### **Aliases**
 <br>
 ### **ID'ing installed software / installing software**
 <br>
+### **Content Search / Output Manipulation**
+- **grep**: search file / output content by keyword
+- **egrep**: search file / output content by regular expression (same as grep -e)
+- **awk**: retrieve specified ***columns*** from files / output 
+- **sed**: edit files / output
+- **tr**: 
+- **cut**: 
+- **sort**: 
+<br>
 
 **References:**
-- 
+- https://phoenixnap.com/kb/linux-commands-cheat-sheet
+- https://www.tecmint.com/find-user-account-info-and-login-details-in-linux/
