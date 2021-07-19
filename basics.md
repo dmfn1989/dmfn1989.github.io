@@ -66,26 +66,26 @@ Man pages can be accessed by typing <code> man ***command*** </code> , which wil
 - <code>></code>: sending standard output to ***overwrite*** a designated file
 - <code>>></code>: sending standard output to ***append to*** a designated file
 - <code><"**: retrieve contents from a file or source, send to standard input
-- <code>2>/dev/null"</code>: suppress errors 
+- <code>2>/dev/null</code>: suppress errors 
 
 <br>
 
 ### **Process / Service Info Retrieval**
-- **ps</code> list processes
-- **pidof / pgrep</code> retrieve the pid of a process(es)
-- **systemctl / service</code> retrieve service information (systemd)
-- **top / htop</code> displays processes and their associated resource utilization in live output. **NOTE:** Due to the live output, top and htop are not recommended for incorporation into scripts.
-- **kill</code> send termination signal to a process by PID
-- **pkill</code> send termination signal to a process by process name
-- **killall</code> send a termination signal to all processes with a specific process name
-- **pstree</code> displays processes in a parent-child relational format
+- <code>ps</code> list processes
+- <code>pidof / pgrep</code> retrieve the pid of a process(es)
+- <code>systemctl / service</code> retrieve service information (systemd)
+- <code>top / htop</code> displays processes and their associated resource utilization in live output. **NOTE:** Due to the live output, top and htop are not recommended for incorporation into scripts.
+- <code>kill</code> send termination signal to a process by PID
+- <code>pkill</code> send termination signal to a process by process name
+- <code>killall</code> send a termination signal to all processes with a specific process name
+- <code>pstree</code> displays processes in a parent-child relational format
 
 <br>
 
 ### **Network Information Retrieval**
-- **ip / ifconfig</code> display information about network interfaces
-- **netstat / ss</code> display current connection information
-- **lsof</code> list open files associated with processes / network connections
+- <code>ip / ifconfig</code> display information about network interfaces
+- <code>netstat / ss</code> display current connection information
+- <code>lsof</code> list open files associated with processes / network connections
 
 <br>
 
