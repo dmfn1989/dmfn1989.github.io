@@ -26,79 +26,80 @@ Man pages can be accessed by typing <code> man ***command*** </code> , which wil
 <br>
 
 ### **FS navigation / operation**
-- **pwd**: displays the present working directory
-- **cd**: change directory
-- **ls**: list contents of a directory
-- **touch**: create a file; update timestamp
-- **mkdir**: make a directory
-- **rmdir**: remove directory
-- **chmod**: change permissions
-- **chown**: change ownership
-- **cp**: copy files
-- **mv**: move or rename a file
-- **more**: page through the contents of a file
-- **less**: page through the contents of a file (like more, but with more functionality)
-- **cat**: output the contents of a file
-- **head**: display the beginning of a file (10 lines by default)
-- **tail**: display the end of a file (10 lines by default)
-- **wc**: count lines, characters, or bytes of a file
-- **gpg**: encrypt a file 
-- **sha#sum / md#sum**: hash a file or data
-- **dd**: dump data from various sources (hard drive, partition, process memory)
+- <code>pwd</code> displays the present working directory
+- <code>cd</code> change directory
+- <code>ls</code> list contents of a directory
+- <code>touch</code> create a file; update timestamp
+- <code>mkdir</code> make a directory
+- <code>rmdir</code> remove directory
+- <code>chmod</code> change permissions
+- <code>chown</code> change ownership
+- <code>cp</code> copy files
+- <code>mv</code> move or rename a file
+- <code>more</code> page through the contents of a file
+- <code>less</code> page through the contents of a file (like more, but with more functionality)
+- <code>cat</code> output the contents of a file
+- <code>head</code> display the beginning of a file (10 lines by default)
+- <code>tail</code> display the end of a file (10 lines by default)
+- <code>wc</code> count lines, characters, or bytes of a file
+- <code>gpg</code> encrypt a file 
+- <code>sha#sum / md#sum</code> hash a file or data
+- <code>dd</code> dump data from various sources (hard drive, partition, process memory)
 
 <br>
 
 ### **System Survey**
-- <code>fdisk</code>: disk partitioning functions
-- **free**: display memory usage statistics
-- **dmesg**: prints the kernel message buffer, including device driver messages
-- **uname**: retrieve general system information (kernel version, architechture, os, etc.)
-- **lshw**: display hardware devices
-- **lscpu**: display cpu information
-- **lsblk**: display block devices (hard drives / partitions, mountpoints, usb devices, etc.)
-- **lsusb**: display currently available usb devices
-- **df**: display free / used space on the filesystem
+- <code>fdisk</code> disk partitioning functions
+- <code>free</code> display memory usage statistics
+- <code>dmesg</code> prints the kernel message buffer, including device driver messages
+- <code>uname</code> retrieve general system information (kernel version, architechture, os, etc.)
+- <code>lshw</code> display hardware devices
+- <code>lscpu</code> display cpu information
+- <code>lsblk</code> display block devices (hard drives / partitions, mountpoints, usb devices, etc.)
+- <code>lsusb</code> display currently available usb devices
+- <code>df</code> display free / used space on the filesystem
 
 
 <br>
 
 ### **Common Redirection**
-- **">"**: sending standard output to ***overwrite*** a designated file
-- **">>"**: sending standard output to ***append to*** a designated file
-- **"<"**: retrieve contents from a file or source, send to standard input
-- **"2>/dev/null"**: suppress errors 
+- <code>></code>: sending standard output to ***overwrite*** a designated file
+- <code>>></code>: sending standard output to ***append to*** a designated file
+- <code><"**: retrieve contents from a file or source, send to standard input
+- <code>2>/dev/null"</code>: suppress errors 
+
 <br>
 
 ### **Process / Service Info Retrieval**
-- **ps**: list processes
-- **pidof / pgrep**: retrieve the pid of a process(es)
-- **systemctl / service**: retrieve service information (systemd)
-- **top / htop**: displays processes and their associated resource utilization in live output. **NOTE:** Due to the live output, top and htop are not recommended for incorporation into scripts.
-- **kill**: send termination signal to a process by PID
-- **pkill**: send termination signal to a process by process name
-- **killall**: send a termination signal to all processes with a specific process name
-- **pstree**: displays processes in a parent-child relational format
+- **ps</code> list processes
+- **pidof / pgrep</code> retrieve the pid of a process(es)
+- **systemctl / service</code> retrieve service information (systemd)
+- **top / htop</code> displays processes and their associated resource utilization in live output. **NOTE:** Due to the live output, top and htop are not recommended for incorporation into scripts.
+- **kill</code> send termination signal to a process by PID
+- **pkill</code> send termination signal to a process by process name
+- **killall</code> send a termination signal to all processes with a specific process name
+- **pstree</code> displays processes in a parent-child relational format
 
 <br>
 
 ### **Network Information Retrieval**
-- **ip / ifconfig**: display information about network interfaces
-- **netstat / ss**: display current connection information
-- **lsof**: list open files associated with processes / network connections
+- **ip / ifconfig</code> display information about network interfaces
+- **netstat / ss</code> display current connection information
+- **lsof</code> list open files associated with processes / network connections
 
 <br>
 
 ### **User Information**
-- **who / w**: displays currently logged in users
-- **last**: display successful login / logout events as recorded in /var/log/wtmp
-- **lastb**: displays unsuccessful login events recorded in /var/log/btmp 
-- **id**: simple command line utility for displaying a real and effective user and group IDs
-- **groups**: used to show all the groups a user belongs to
-- **finger**: used to search information about a user (ie. real name, home directory, default shell, time logged in, etc., as applicable). **NOTE:** Not installed by default on all linux distros.
-- **lslogins**: displays information about user accounts on the system such as UID, username, number of owned running processes, last login time, and user [GECOS](https://en.wikipedia.org/wiki/Gecos_field) field
-- **users**: displays users currently logged in to the system
-- **who**: displays users currently logged in to the system, the terminal they are connected to, last login date/time, and the address they are connected from ( "(:0)" for locally logged-in, or an IP address for a remote connection)
-- **w**: displays system uptime, number of users logged in, and basic information about their login session (ie. username, terminal, address connected from, login time, etc.)
+- <code>who / w</code> displays currently logged in users
+- <code>last</code> display successful login / logout events as recorded in /var/log/wtmp
+- <code>lastb</code> displays unsuccessful login events recorded in /var/log/btmp 
+- <code>id</code> simple command line utility for displaying a real and effective user and group IDs
+- <code>groups</code> used to show all the groups a user belongs to
+- <code>finger</code> used to search information about a user (ie. real name, home directory, default shell, time logged in, etc., as applicable). **NOTE:** Not installed by default on all linux distros.
+- <code>lslogins</code> displays information about user accounts on the system such as UID, username, number of owned running processes, last login time, and user [GECOS](https://en.wikipedia.org/wiki/Gecos_field) field
+- <code>users</code> displays users currently logged in to the system
+- <code>who</code> displays users currently logged in to the system, the terminal they are connected to, last login date/time, and the address they are connected from ( "(:0)" for locally logged-in, or an IP address for a remote connection)
+- <code>w</code> displays system uptime, number of users logged in, and basic information about their login session (ie. username, terminal, address connected from, login time, etc.)
 
 <br>
 
@@ -116,7 +117,7 @@ Local Variables in bash can be assigned by typing the "naked" variable name on t
 
 Environment Variables can be declared by prepending "export" to a normal variable declaration (ie. export a=b). This will allow the variable to be used by the current terminal / context, as well as any children spawned.
 
-Global Variables are in reference to a variable declared at the beginning of a bash script that can be used throughout in various functions or commands, unless over-written.
+Global Variables are ones declared at the beginning of a bash script that can be used throughout in various functions or commands, unless over-written.
 
 Lastly, bash has standard environment variables that can be queried for information and / or manipulated to affect attributes of a user's shell experience. They can be found [here](https://www.gnu.org/software/bash/manual/html_node/Bash-Variables.html).
 
@@ -126,8 +127,7 @@ Lastly, bash has standard environment variables that can be queried for informat
 
 <br>
 
-When typed with no arguments, the ***alias*** command will display current aliases. To set a new alias, type <code> alias shortname=command </code>, where shortname is the alias you want to type / run, and command is the the action you want to perform.
-Aliases will only be available in the current terminal / context.
+When typed with no arguments, the ***alias*** command will display current aliases. To set a new alias, type <code> alias shortname=command </code>, where shortname is the alias you want to type / run, and command is the the action you want to perform. Aliases will only be available in the current terminal / context.
 
 <br>
 
@@ -140,18 +140,19 @@ To make an alias permanent for a user account, it can be either added to the **~
 <br>
 
 ### **ID'ing installed software / installing software**
-
+- RedHat / CentOS:
+	- <code>rpm -qa</code> list all installed
 <br>
 
 ### **Content Search / Output Manipulation**
 
-- **grep**: search file / output content by keyword
-- **egrep**: search file / output content by regular expression (same as grep -e)
-- **awk**: retrieve specified ***columns*** from files / output 
-- **sed**: edit files / output
-- **tr**: 
-- **cut**: 
-- **sort**: 
+- <code>grep</code> search file / output content by keyword
+- <code>egrep</code> search file / output content by regular expression (same as grep -e)
+- <code>awk</code> retrieve specified ***columns*** from files / output 
+- <code>sed</code> edit files / output
+- <code>tr</code> 
+- <code>cut</code> 
+- <code>sort</code> 
 
 <br>
 
