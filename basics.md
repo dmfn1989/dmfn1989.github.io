@@ -1,4 +1,4 @@
-# **Bash Basics**
+# **Linux and Bash Basics**
 
 #### **MAN Pages and Help Files**
 Manual pages, also known as man pages, are simply reference manuals, most commonly used to understand the functionality of any given command. There are different categories that man pages fall into, depicted in the table below. 
@@ -75,10 +75,15 @@ Man pages can be accessed by typing <code> man ***command*** </code> , which wil
 - <code>pidof / pgrep</code> retrieve the pid of a process(es)
 - <code>systemctl / service</code> retrieve service information (systemd)
 - <code>top / htop</code> displays processes and their associated resource utilization in live output. **NOTE:** Due to the live output, top and htop are not recommended for incorporation into scripts.
+- <code>pstree</code> displays processes in a parent-child relational format
 - <code>kill</code> send termination signal to a process by PID
 - <code>pkill</code> send termination signal to a process by process name
 - <code>killall</code> send a termination signal to all processes with a specific process name
 - <code>pstree</code> displays processes in a parent-child relational format
+
+<br>
+
+()[images/LinuxKillProc.jpg]
 
 <br>
 
