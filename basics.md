@@ -83,7 +83,9 @@ Man pages can be accessed by typing <code> man ***command*** </code> , which wil
 
 <br>
 
-()[images/LinuxKillProc.jpg]
+<figure>
+	<img src="images/LinuxKillProc.jpg">
+</figure>
 
 <br>
 
