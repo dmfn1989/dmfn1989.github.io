@@ -12,18 +12,11 @@
   - [Scripting](bash-scripting.md)
 
 
+[Host Analysis]()
 
-[Analysis - Host]()
-
-  - []()
-  
-[Analysis - Network]()
-
-  - []()
-
-[Analysis - Files]()
-
-  - []()
+- [Analysis - Host](hostanalysis.md)
+- [Analysis - Network](netanalysis.md)
+- [Analysis - Files](fileanalysis.md)
 
 
 [Remote Access]()
