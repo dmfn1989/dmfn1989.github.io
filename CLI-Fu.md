@@ -2,7 +2,7 @@
 Contents:
 - [Brace Expansion](#brace-expansion)
 - [Command Substitution](#command-substitution)
-- [History Substitution / Event Designators](#history)
+- [History Substitution / Event Designators](#history-substitution-and-event-designators)
 - [Loops](#loops)
 - [Standard Hotkeys](#standard-hotkeys)
 - [Useful Examples](#useful-examples)
@@ -50,7 +50,7 @@ In the example below, command substitution is used to run the `date` command ins
 
 <br>
 
-### **History Substitution / Event Designators**
+### **History Substitution and Event Designators**
 Below is a short (not all-inclusive) list of useful shorthand ways to reference bash history and utlize all or part of commands previously used. This is not only useful for saving time on the command line, but for example avoiding typos when referencing long filepaths, or trying to recall the exact syntax of a previously run command, expecially if it involves a long pipeline or command substitution.
  
 <br>
