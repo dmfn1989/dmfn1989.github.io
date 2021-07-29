@@ -2,7 +2,7 @@
 Contents:
 - [Brace Expansion](#brace-expansion)
 - [Command Substitution](#command-substitution)
-- [History Substitution / Event Designators](#history-substitution-/-event-designators)
+- [History Substitution / Event Designators](#history-substitution-event-designators)
 - [Loops](#loops)
 - [Standard Hotkeys](#standard-hotkeys)
 - [Useful Examples](#useful-examples)
