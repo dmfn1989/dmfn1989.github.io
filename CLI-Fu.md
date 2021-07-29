@@ -1,5 +1,11 @@
 # Command Line-Fu
-[test](#command-substitution)
+Contents:
+- [Brace Expansion](#brace-expansion)
+- [Command Substitution](#command-substitution)
+- [History Substitution / Event Designators](#history-substitution-/-event-designators)
+- [Loops](#loops)
+- [Standard Hotkeys](#standard-hotkeys)
+- [Useful Examples](#useful-examples)
 
 ### **Brace Expansion**
 Strings can be generated in sequence for use in naming files and directories, generating file contents, creating input to pass along in a pipeline, and scripting. To utilize brace expansion, enter either a comma-separated list of strings or range (separated by two dots, "..") of numbers between a pair of curly brackets. Optionally, a preamble and post-script can be placed before and after the brackets, respectively, to add a static portion to the output.
