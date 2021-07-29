@@ -6,6 +6,7 @@ Contents:
 - [Loops](#loops)
 - [Standard Hotkeys](#standard-hotkeys)
 - [Useful Examples](#useful-examples)
+- [External References](#external-references)
 
 ### **Brace Expansion**
 Strings can be generated in sequence for use in naming files and directories, generating file contents, creating input to pass along in a pipeline, and scripting. To utilize brace expansion, enter either a comma-separated list of strings or range (separated by two dots, "..") of numbers between a pair of curly brackets. Optionally, a preamble and post-script can be placed before and after the brackets, respectively, to add a static portion to the output.
@@ -166,7 +167,7 @@ Display current bash key bindings (hotkeys) -
 `bind -P | grep -v "not bound to any keys"`
 
 
-**External References:**
+### **External References:**
 - https://www.gnu.org/software/bash/manual/html_node/Pipelines.html
 - https://www.commandlinefu.com/commands/browse/sort-by-votes
 - https://www.thegeekstuff.com/2011/08/bash-history-expansion/
