@@ -8,17 +8,22 @@
 [Bash]()
 
   - [Basics](basics.md)
-  - [Advanced](advanced.md)
-  - [Command Line-Fu](CLI-Fu.md)
+  - [Command-Line Fu](CLI-Fu.md)
   - [Scripting](bash-scripting.md)
 
-[Python]()
 
-[Native Tools]()
 
-  - [Host Survey](survey.md)
-  - [Network](net-tools.md)
-  - [File Analysis](file-analysis.md)
+[Analysis - Host]()
+
+  - []()
+  
+[Analysis - Network]()
+
+  - []()
+
+[Analysis - Files]()
+
+  - []()
 
 
 [Remote Access]()
@@ -26,7 +31,7 @@
   - [SSH](ssh.md)
   - [Telnet](telnet.md) 
   - [VNC](vnc.md)
-  - [RDP-like Software](rdp-like.md)
+  - [RDP Alternatives](rdp-like.md)
 
 [Threat Hunting / Compromise Detection]()
 
@@ -34,6 +39,7 @@
   - [Common IOCs](iocs.md)
   - [Filesystem Forensics](fs-forensics.md)
   - [Memory Forensics](mem-forensics.md)
+  - [Rootkits](rootkits.md)
 
 [Tools and Analysis]() 
 

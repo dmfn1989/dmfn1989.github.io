@@ -1,4 +1,4 @@
-# **Standard Linux Directories**
+# **Standard Linux Directories & Files**
 
 ### **Basic Directory Descriptions**
 - **/** - The root directory is the base of the whole filesystem in Linux, and everything in the Filesystem falls beneath it. 
@@ -21,7 +21,12 @@
 
 <br>
 
-**NOTE:** The explanations provided above are the default \*NIX file locations and standard practice. However, given the proper permissions, there is nothing preventing a user from storing files in non-standard locations.
+### Important Files
+
+
+<br>
+
+**NOTE:** The explanations provided above are the default \*NIX file locations and standard practice. However, given the proper permissions, there is nothing preventing a user from storing files in non-standard locations or using their own naming conventions.
 
 
 <br>

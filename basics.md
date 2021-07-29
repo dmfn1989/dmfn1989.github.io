@@ -1,6 +1,19 @@
-# **Linux and Bash Basics**
+# **Linux / Bash Basics**
+## Contents:
+- [Man Pages / Help Files](#man-pages-and-help-files)
+- [Filesystem Navigation / Operation](#fs-navigation-and-operation)
+- [System Survey](#system-survey)
+- [Common Redirection](#common-redirection)
+- [Process / Service Info](#process-and-service-info)
+- [Network Info](#network-info)
+- [User Info](#user-info)
+- [Variables](#variables)
+- [Aliases](#aliases)
+- [Identifying Installed Software](#identifying-installed-software)
+- [Content Search and Output Manipulation](#content-search-and-output-manipulation)
+- [External References](#external-references)
 
-#### **MAN Pages and Help Files**
+## **MAN Pages and Help Files**
 Manual pages, also known as man pages, are simply reference manuals, most commonly used to understand the functionality of any given command. There are different categories that man pages fall into, depicted in the table below. 
 <br>
 Man pages can be accessed by typing <code> man ***command*** </code> , which will open them with the ***less*** manual pager. Additionally, most commands also have abbreviated help files that can be accessed by typing <code> ***command*** -h </code> **OR** <code> ***command*** --help </code> . 
@@ -25,7 +38,7 @@ Man pages can be accessed by typing <code> man ***command*** </code> , which wil
 
 <br>
 
-### **FS navigation / operation**
+## **FS navigation and operation**
 - <code>pwd</code> displays the present working directory
 - <code>cd</code> change directory
 - <code>ls</code> list contents of a directory
@@ -48,7 +61,7 @@ Man pages can be accessed by typing <code> man ***command*** </code> , which wil
 
 <br>
 
-### **System Survey**
+## **System Survey**
 - <code>fdisk</code> disk partitioning functions
 - <code>free</code> display memory usage statistics
 - <code>dmesg</code> prints the kernel message buffer, including device driver messages
@@ -62,20 +75,21 @@ Man pages can be accessed by typing <code> man ***command*** </code> , which wil
 
 <br>
 
-### **Common Redirection**
+## **Common Redirection**
 - <code>></code> sending standard output to ***overwrite*** a designated file
 - <code>>></code> sending standard output to ***append to*** a designated file
 - <code>&lt;</code> retrieve contents from a file or source, send to standard input
-- <code>2>/dev/null</code> suppress errors 
+- <code> 2>/dev/null </code> suppress stderr
+- <code> &>/dev/null </code> suppress stdout and stderr 
 
 <br>
-	
-### **Process / Service Info Retrieval**
+
+## **Process and Service Info**
+
 - <code>ps</code> list processes
 - <code>pidof / pgrep</code> retrieve the pid of a process(es)
 - <code>systemctl / service</code> retrieve service information (systemd)
 - <code>top / htop</code> displays processes and their associated resource utilization in live output. **NOTE:** Due to the live output, top and htop are not recommended for incorporation into scripts.
-- <code>pstree</code> displays processes in a parent-child relational format
 - <code>kill</code> send termination signal to a process by PID
 - <code>pkill</code> send termination signal to a process by process name
 - <code>killall</code> send a termination signal to all processes with a specific process name
@@ -83,20 +97,14 @@ Man pages can be accessed by typing <code> man ***command*** </code> , which wil
 
 <br>
 
-<figure>
-	<img src="images/LinuxKillProc.jpg">
-</figure>
-
-<br>
-
-### **Network Information Retrieval**
+## **Network Info**
 - <code>ip / ifconfig</code> display information about network interfaces
 - <code>netstat / ss</code> display current connection information
 - <code>lsof</code> list open files associated with processes / network connections
 
 <br>
 
-### **User Information**
+## **User Information**
 - <code>who / w</code> displays currently logged in users
 - <code>last</code> display successful login / logout events as recorded in /var/log/wtmp
 - <code>lastb</code> displays unsuccessful login events recorded in /var/log/btmp 
@@ -110,7 +118,7 @@ Man pages can be accessed by typing <code> man ***command*** </code> , which wil
 
 <br>
 
-### **Variables**
+## **Variables**
 
 <br>
 
@@ -133,7 +141,7 @@ Lastly, bash has standard environment variables that can be queried for informat
 
 <br>
 
-### **Aliases**
+## **Aliases**
 
 <br>
 
@@ -152,7 +160,7 @@ To make an alias permanent for a user account, it can be either added to the **~
 
 <br>
 
-### **ID'ing installed software**
+## **Identifying Installed Software**
 Use the following commands to Identify installed packages on a \*NIX distribution. 
 
 - Aptitude-based distributions (Ubuntu, Debian, etc): <code>dpkg -l</code>
@@ -165,7 +173,7 @@ Use the following commands to Identify installed packages on a \*NIX distributio
 	
 <br>
 
-### **Content Search / Output Manipulation**
+## **Content Search and Output Manipulation**
 The commands below, while still useful on their own, are most powerful combined together in pipeline command, where they can extract and draw attention to important information, provided the appropriate logic behind them. Useful examples of this are covered in a separate section, [CLI-Fu](CLI-Fu.md).
 
 - <code>grep</code> search file / output content by keyword
@@ -180,7 +188,8 @@ The commands below, while still useful on their own, are most powerful combined 
 <br>
 
 
-**References:**
+
+## **External References:**
 - https://phoenixnap.com/kb/linux-commands-cheat-sheet
 - https://www.tecmint.com/find-user-account-info-and-login-details-in-linux/
 - https://www.gnu.org/software/bash/manual/html_node/index.html

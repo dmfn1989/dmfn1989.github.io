@@ -2,11 +2,10 @@
 Contents:
 - [Brace Expansion](#brace-expansion)
 - [Command Substitution](#command-substitution)
-- [History Substitution / Event Designators](#history-substitution-and-event-designators)
+- [History Substitution / Event Designators](#history-substitution-/-event-designators)
 - [Loops](#loops)
 - [Standard Hotkeys](#standard-hotkeys)
 - [Useful Examples](#useful-examples)
-- [External References](#external-references)
 
 ### **Brace Expansion**
 Strings can be generated in sequence for use in naming files and directories, generating file contents, creating input to pass along in a pipeline, and scripting. To utilize brace expansion, enter either a comma-separated list of strings or range (separated by two dots, "..") of numbers between a pair of curly brackets. Optionally, a preamble and post-script can be placed before and after the brackets, respectively, to add a static portion to the output.
@@ -51,7 +50,7 @@ In the example below, command substitution is used to run the `date` command ins
 
 <br>
 
-### **History Substitution and Event Designators**
+### **History Substitution / Event Designators**
 Below is a short (not all-inclusive) list of useful shorthand ways to reference bash history and utlize all or part of commands previously used. This is not only useful for saving time on the command line, but for example avoiding typos when referencing long filepaths, or trying to recall the exact syntax of a previously run command, expecially if it involves a long pipeline or command substitution.
  
 <br>
@@ -167,7 +166,7 @@ Display current bash key bindings (hotkeys) -
 `bind -P | grep -v "not bound to any keys"`
 
 
-### **External References:**
+**External References:**
 - https://www.gnu.org/software/bash/manual/html_node/Pipelines.html
 - https://www.commandlinefu.com/commands/browse/sort-by-votes
 - https://www.thegeekstuff.com/2011/08/bash-history-expansion/
