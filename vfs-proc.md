@@ -5,6 +5,9 @@
 - [System Info](#system-information)
 - [External References](#external-references)
 
+- [[#Overview]]
+- [[#Process Information]]
+
 ## **Overview**
 As stated in the [Standard Directories](standard_dirs.md) section, the /proc directory contains special files that do not exist on the physical filesystem. The entire directory is created at boot, the special files therein contain information about the system as it is currently running, and the filesystem disappears when the system is shutdown or rebooted. The contents of the directory generally fall in one of two categories:
 - Process Info (organized into directories named by PID)
